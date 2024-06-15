@@ -1,0 +1,154 @@
+h1 {
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-family: "Poppins" !important;
+}
+
+p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.login__form {
+  color: #8a8a8a;
+  border-radius: 16px;
+  border: none;
+  padding: 14px 20px;
+  font-size: 14px;
+}
+
+.input-group-text {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.input-group > .login__form {
+  border: 1px solid #d0d0d0;
+}
+
+.input-group > .password {
+  border: 1px solid #d0d0d0;
+  border-right: 0px;
+}
+
+.login__form:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #7126b5 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(247, 238, 244);
+}
+
+.login__btn {
+  border: none;
+  padding: 14px 20px;
+  font-size: 14px;
+  background: #FF6969 !important;
+  border-radius: 16px;
+  color: #d0d0d0 !important;
+}
+
+.btn-check:checked + .login__btn,
+.login__btn.active,
+.login__btn.show,
+.login__btn:first-child:active,
+:not(.btn-check) + .login__btn:active,
+.login__btn:hover {
+  background: #FF6969 !important;
+  border: none;
+}
+
+.btn.disabled,
+.login__btn:disabled,
+fieldset:disabled .login__btn {
+  color: var(--bs-btn-disabled-color);
+  pointer-events: none;
+  background-color: #FF6969 !important;
+  border: none;
+  opacity: var(--bs-btn-disabled-opacity);
+}
+
+a {
+  color: #FF6969 !important;
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: -16px;
+  margin-top: 12px;
+}
+
+/* .reset-pass__btn {
+  background-color: #7126b5 !important;
+  color: white;
+}
+
+.reset-pass__btn:active,
+.reset-pass__btn:hover {
+  background-color: #4b1979 !important;
+}
+
+.fade-out {
+  animation: fadeOut 3s ease-out;
+  animation-fill-mode: forwards;
+} */
+
+/* Animasi fade-out */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .login {
+    padding-top: 20%;
+    padding-left: 30px !important;
+  }
+
+  .account {
+    padding-top: 50%;
+  }
+
+
+  .mb-1 {
+    padding-left: 2%;
+    padding-top: 5%;
+  }
+
+  .input-group {
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .login__btn,
+  .login,
+  .register {
+    width: 100%;
+  }
+
+  .d-grid {
+    padding-left: 2%;
+    padding-top: 5%;
+  }
+
+  .form-d {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .login {
+    padding-top: 20%;
+  }
+
+  .account {
+    padding-top: 10%;
+  }
+}

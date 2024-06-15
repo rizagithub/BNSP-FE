@@ -1,0 +1,78 @@
+.log {
+    justify-content: start;
+}
+
+.login {
+    margin-bottom: 4%;
+}
+
+.regis {
+    margin-bottom: 4%;
+}
+
+.reset {
+    margin-bottom: 4%;
+}
+
+.input-group {
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 786px) {
+    .pass {
+        padding-left: 2%;
+    }
+    
+    .account {
+        padding-top: 10%;
+    }
+    
+    .login {
+        padding-left: 2%;
+        padding-top: 10%;
+    }
+
+    .regis {
+        padding-top: 10%;
+    }
+
+    .reset {
+        padding-top: 10%;
+    }
+
+    .input-group {
+        margin-bottom: 0%;
+    }
+
+    .input-pw {
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .pass {
+        padding-left: 2%;
+    }
+    
+    .account {
+        padding-top: 10%;
+    }
+    
+    .login {
+        padding-left: 2%;
+        padding-top: 10%;
+    }
+
+    .regis {
+        padding-top: 10%;
+    }
+
+    .input-group {
+        margin-bottom: 0%;
+    }
+
+    .input-pw {
+        margin-left: 2%;
+    }
+}

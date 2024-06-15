@@ -1,0 +1,237 @@
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.footer-48201 {
+  /* padding: 7rem 0; */
+  /* margin-top: 100px; */
+  background-color: #2547de !important;
+  /* padding-left: 155px; */
+  /* padding-right: 155px; */
+
+  color: #fff !important;
+}
+.footer-48201 .footer-site-logo {
+  font-size: 1.5rem;
+  color: #fff !important;
+}
+.footer-48201 .nav-links li {
+  margin-bottom: 10px;
+}
+.footer-48201 .nav-links li a {
+  color: #fff !important;
+  font-size: 14px;
+}
+.footer-48201 .nav-links li a:hover {
+  color: #fff !important;
+}
+.footer-48201 .btn.btn-tertiary {
+  background-color: #e42c64 !important;
+  color: #fff !important;
+  border-radius: 30px;
+  border: none;
+  width: 150px;
+  padding: 10px 20px;
+}
+.footer-48201 .social li {
+  display: inline-block;
+}
+.footer-48201 .social li a {
+  color: #fff !important;
+  padding: 7px;
+}
+.footer-48201 .social li a:hover {
+  color: #fff !important;
+}
+.footer-48201 .copyright {
+  border-top: 1px solid #fff;
+}
+
+.footer-48201 .copyright p {
+  color: white;
+  margin-bottom: -20px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.social {
+  flex-wrap: wrap;
+}
+
+.modal-wide {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wide-team {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wide .modal-content {
+  text-align: center;
+}
+
+/* modal our team  */
+* {
+  font-family: Nunito, sans-serif;
+}
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.responsive-cell-block {
+  min-height: 75px;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.outer-container {
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: rgb(244, 252, 255);
+}
+
+.inner-container {
+  max-width: 1320px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.section-head-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(0, 135, 177);
+  margin: 0 0 10px 0;
+}
+
+.section-subhead-text {
+  font-size: 25px;
+  color: rgb(153, 153, 153);
+  line-height: 35px;
+  max-width: 470px;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+}
+
+.img-wrapper {
+}
+
+.team-card {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media-links {
+  width: 125px;
+  display: flex;
+  margin-top: -40px;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.position {
+  font-size: 25px;
+  font-weight: 700;
+  color: #7126b5;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.team-img {
+  width: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-card-container {
+  width: 280px;
+  margin: 0 0 40px 0;
+}
+
+@media (max-width: 500px) {
+  .outer-container {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .section-head-text {
+    text-align: center;
+  }
+}

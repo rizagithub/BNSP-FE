@@ -1,0 +1,27 @@
+/* Register.css */
+.register-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 30px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .register-form .form-label {
+    font-weight: bold; /* Bold labels */
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-form .form-label svg {
+    margin-right: 8px; /* Space between icon and label */
+  }
+  
+  .register-button {
+    background-color: #FF6969;
+    border: none;
+  }
+  
+  .register-button:hover {
+    background-color: #ff5a5a; /* Darker shade on hover */
+  }
+  

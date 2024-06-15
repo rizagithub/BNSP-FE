@@ -1,0 +1,105 @@
+.destinasi-fav {
+  margin-top: 10rem;
+  width: 66%;
+}
+
+.destinasi-fav__cat::-webkit-scrollbar {
+  display: none !important;
+}
+
+.destinasi-fav__cat {
+  z-ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  overflow-x: scroll;
+}
+
+.destinasi-fav__search-img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-destinasi {
+  background-color: #b59126;
+  font-family: poppins;
+}
+
+.destinasi-fav__category-1 {
+  /* width: 14%; */
+  /* height: 48px; */
+  border-radius: 12px;
+  margin-left: 20px;
+  background-color: #7126b5;
+  color: white !important;
+}
+
+.destinasi-fav__category-2:hover {
+  background-color: #7126b5 !important;
+  color: #e2d4f0 !important;
+}
+
+.destinasi-fav__category-2 {
+  /* width: 14%; */
+  /* height: 48px; */
+  background-color: #e2d4f0 !important;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.destinasi-card {
+  width: 100%;
+}
+
+.destinasi-card__text-1 {
+  font-size: 12px;
+}
+
+.destinasi-card__text-2 {
+  font-size: 10px;
+  color: #7126b5;
+}
+
+.search-desti {
+  /* height: 25px;
+  width: 380px; */
+  border: 0;
+  background-color: #eeeeee;
+  width: 250px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.search-desti:focus {
+  outline-style: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  .container .destinasi-card .destinasi-card__list {
+    width: 49% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .destinasi-fav__category-2 {
+    width: 10% !important;
+  }
+  .text__card {
+    width: 30% !important;
+  }
+
+  .container .destinasi-card .destinasi-card__list {
+    width: 29%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .destinasi-card .destinasi-card__list {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .destinasi-card__list {
+    width: 19%;
+  }
+}

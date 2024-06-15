@@ -1,0 +1,9 @@
+.icon-flower{
+  width: 30px;
+}
+.act:hover, .act:focus{
+  background-color: #FF6969;
+  color: #fff;
+  text-decoration: none;
+}
+

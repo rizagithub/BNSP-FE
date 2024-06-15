@@ -1,0 +1,33 @@
+.top{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.bi {
+    font-size: 24px; /* Adjust the size as needed */
+    margin-left: 5px; /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+    color: #007bff; /* Adjust the color as needed */
+  }
+
+  
+/* ModalStyles.css */
+
+.custom-modal {
+  border: 2px solid pink !important;
+}
+.custom-modal .modal-content {
+  border: none !important;
+}
+  
+.custom-modal .modal-header {
+  border-bottom: none !important;
+}
+  
+.custom-modal .modal-footer {
+  border-top: none !important;
+}
+
+
+  

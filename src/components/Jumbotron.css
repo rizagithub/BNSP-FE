@@ -1,0 +1,10 @@
+.banner {
+    width: 80%;
+    margin-top: 8rem;
+  }
+  
+  .banner2{
+    display: flex;
+    justify-content: center; 
+    align-items:center
+  }

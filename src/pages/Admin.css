@@ -1,0 +1,48 @@
+.side-bar-admin {
+  height: 100vh;
+}
+
+.side-bar-admin__logo {
+  width: 200px !important;
+  margin-top: 27px;
+}
+
+.side-bar-admin h5 {
+  font-size: 18px;
+}
+
+.side-bar-admin__list:hover {
+  background-color: #FF6969 !important;
+  color: white !important;
+}
+
+.side-bar-admin__list:hover .side-bar-admin__icon {
+ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(325deg) brightness(104%) contrast(101%);
+}
+
+.side-bar-admin__selected {
+  background-color: #FF6969 !important;
+  color: white;
+}
+
+.side-bar-admin__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-admin {
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.main-admin__card {
+    width: 24%;
+}
+
+.main-admin__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.main-admin p {
+    font-size: 16px;
+}

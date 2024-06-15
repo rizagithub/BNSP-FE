@@ -1,0 +1,42 @@
+.hero-title{
+    padding-top: 200px;
+}
+
+.img-landing{
+    width:350px;
+}
+.img-list{
+    width:200px;
+}
+.img-title{
+    width:210px;
+}
+
+.swiper-slide {
+  background-color: #e579b1; /* Warna latar belakang merah */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 250px !important;
+}
+
+
+@media (max-width: 676px) {
+    .hero-title {
+      padding-top: 130px !important; /* Ubah padding-top untuk layar sangat kecil (hingga 576px) */
+    }
+  
+    .img-landing {
+      display: none;
+    }
+  
+    .img-title {
+      width: 100px; /* Ubah lebar gambar title untuk layar sangat kecil */
+    }
+    .crs{
+        display: none;
+    }
+  }
